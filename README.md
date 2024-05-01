@@ -1,12 +1,18 @@
-# Training and Inferencing usiing AWS EC2 and SageMaker for CIFAR-10 using Pytorch and Pytorch Lightning
+# Training and Inferencing using AWS EC2 and SageMaker for CIFAR-10 using Pytorch and Pytorch Lightning
 
-## This repository contains files used for training and inferencing of Sagemaker and EC2:
+## Repository Details
 
 ### SageMaker
 - `S14.ipynb`: Notebook containing the main code for training in SageMaker
 
 ### EC2
 - `S14.ipynb`: Notebook containing the main code for training in EC2
+
+## Code Details
+
+- Code details for Training and Inferencing usiing **AWS EC2** can be found at: https://github.com/Shivdutta/ERA2-Session13
+
+- Code details for Training and Inferencing usiing **SageMaker** can be found at: https://github.com/Shivdutta/ERA2-Session11
 
 ## Setup and Configuration:
 
@@ -33,12 +39,6 @@
      - Note Deep Learing Instance type should be ml.g4dn.2xlarge. But due to non avilability of ml.g4dn.2xlarge,
        I have used c5.2xlarge(which may be cause   of low LR)
 ![Notebook](Data/EC2_Instance.png)     
-## Code Details
-
-- Code details for Training and Inferencing usiing **AWS EC2** can be found at: https://github.com/Shivdutta/ERA2-Session13
-
-- Code details for Training and Inferencing usiing **SageMaker** can be found at: https://github.com/Shivdutta/ERA2-Session11
-
 
 ## Model Summary:
 
