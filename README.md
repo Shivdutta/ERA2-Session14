@@ -14,6 +14,8 @@
 
 - Code details for Training and Inferencing usiing **SageMaker** can be found at: https://github.com/Shivdutta/ERA2-Session11
 
+- **Master Repo** for reusable libraries: https://github.com/Shivdutta/ERA2-Master 
+
 ## Setup and Configuration:
 
 ### SageMaker
