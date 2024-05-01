@@ -30,14 +30,14 @@
  - After login, we need to request for Service Request Quota for  ml.g4dn.2xlarge GPU. 
      - Under Amazon Elastic Compute Cloud (Amazon EC2)
           - All G and VT Spot Instance Requests
- - Once the access is provided, we can configure EC2 instance by EC2 launch by following steps:
+ - Once the access is provided, we can configure EC2 instance through EC2 launch by following steps:
      - Provide EC2 Instance name
      - Select OS - Ubuntu
      - Select AMI Type - Deep Learning OSS Nvidia Driver AMI GPU PyTorch 2.2.0 (Ubuntu 20.04)
      - SSH - pem file to be generated
      - Instance type c5.2xlarge
      - Note Deep Learing Instance type should be ml.g4dn.2xlarge. But due to non avilability of ml.g4dn.2xlarge,
-       I have used c5.2xlarge(which may be cause   of low LR)
+       I have used c5.2xlarge(which may be cause of low LR)
 ![Notebook](Data/EC2_Instance.png)     
 
 ## Model Summary:
